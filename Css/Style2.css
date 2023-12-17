@@ -1,0 +1,134 @@
+/* ========= Today deals Section =========  */
+
+.todaydeals {
+  width: 100%;
+  height: 400px;
+  background-color: #e2e7e6;
+  padding-bottom: 20px;
+  padding-left: 0.85rem;
+  padding-right: 0.85rem;
+}
+
+.todaydealscontainer {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 20px 20px;
+}
+
+.TopHeading {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+.TopHeading span {
+  margin-left: 10px;
+  color: #37475a;
+  font-size: 0.85rem;
+}
+.TopHeading span:hover {
+  text-decoration: underline;
+  color: #c7511f;
+}
+
+.multipleitems {
+  display: flex;
+  /* justify-content: space-between; */
+  overflow: auto;
+}
+
+.mainContainer {
+  height: 260px;
+  width: 240px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.imageSection {
+  width: 240px;
+  height: 200px;
+  margin-bottom: 10px;
+  background-color: #f3f3f3;
+  padding: 10px;
+  margin-right: 1rem;
+}
+
+.imageSection a img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.offercontainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.offercontainer p {
+  color: #cc0c39;
+  font-size: 0.8rem;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.offer-percentage {
+  background-color: #cc0c39;
+  width: 90px;
+  height: 24px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  border-radius: 2px;
+  font-weight: 500;
+}
+.description {
+  font-size: 0.8rem;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
+/* <!-- ======== Movies and TV Section ======== --> */
+
+
+
+.MovieSection {
+  width: 100%;
+  height: 320px;
+  background-color: #e2e7e6;
+  padding-bottom: 20px;
+  padding-left: 0.85rem;
+  padding-right: 0.85rem;
+}
+
+.MoviemainContainer {
+  height: 210px;
+  width: 100%;
+  margin-right: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+
+}
+
+.moviemultipleitems {
+  display: flex;
+  overflow: auto;
+}
+
+.movieimageSection {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  background-color: #6f6f6f;
+  margin-right: 8px;  
+  vertical-align: middle;
+  display: inline;
+}
+
+.movieimageSection a img {
+  max-height: 200px;
+  object-fit: contain;
+}
